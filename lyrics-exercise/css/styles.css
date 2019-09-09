@@ -1,0 +1,33 @@
+body{
+	font-family: Gill Sans, sans-serif;
+	line-height: 150%;
+	text-align: center;
+	color:lavender;
+	font-size: large; 
+}
+h1 {
+	font-family: Baskerville, serif;
+	font-size: xx-large;
+	text-align: center;
+	color: midnightblue;
+}
+h2 {
+	font-family: Gill Sans, sans-serif;
+	font-size: large;
+	text-align: center;
+	color: midnightblue;
+}
+strong {
+	color: paleturquoise;
+
+}
+footer {
+	font-size: medium;
+	line-height: 125%;
+	color: midnightblue;
+}
+html {
+	background-color: lightseagreen;
+	margin-top: 60px;
+	margin-bottom: 60px;
+}
