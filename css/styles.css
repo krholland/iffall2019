@@ -1,29 +1,35 @@
-body {
-	font-family: sans-serif;
-	margin-top: 50px;
-	margin-bottom: 50px;
-	margin-right: 50px;
-	margin-left: 50px;
+body{
+	font-family: Gill Sans, sans-serif;
+	line-height: 150%;
+	text-align: center;
+	color:lavender;
+	font-size: large; 
 }
 h1 {
-	font-family: serif;
-	font-size: xx-large;
+	font-family: Baskerville, serif;
+	font-size: 80px;
+	line-height:125%;
 	text-align: center;
-	color: blue;
+	color: midnightblue;
 }
 h2 {
-	font-family: serif;
-	font-size: x-large;
-	color:blue;
-}
-.quote-paragraph {
-	font-size: medium;
+	font-family: Gill Sans, sans-serif;
+	font-size: xx-large;
 	line-height: 125%;
+	text-align: center;
+	color: midnightblue;
+}
+strong {
+	color: paleturquoise;
 
 }
 footer {
-	font-size:small;
+	font-size: medium;
+	line-height: 125%;
+	color: midnightblue;
 }
-strong {
-	color:blue;
+html {
+	background-color: lightseagreen;
+	margin-top: 60px;
+	margin-bottom: 60px;
 }
