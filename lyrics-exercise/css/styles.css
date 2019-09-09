@@ -7,13 +7,15 @@ body{
 }
 h1 {
 	font-family: Baskerville, serif;
-	font-size: xx-large;
+	font-size: 80px;
+	line-height:125%;
 	text-align: center;
 	color: midnightblue;
 }
 h2 {
 	font-family: Gill Sans, sans-serif;
-	font-size: large;
+	font-size: xx-large;
+	line-height: 125%;
 	text-align: center;
 	color: midnightblue;
 }
