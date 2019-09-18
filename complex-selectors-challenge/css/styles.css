@@ -1,0 +1,50 @@
+header {
+	margin-bottom: 3rem;
+}
+p {
+	line-height: 1.6;
+}
+a.see-all {
+	font-size: 0.8em;
+	text-transform: uppercase;
+}
+.content h1 {
+	font-size: 2.5rem;
+}
+.shows section h2 {
+	font-size: 1rem;
+	text-transform: uppercase;
+}
+h1,h2 {
+	font-weight: lighter;
+}
+.cast img {
+	width: 100%;
+}
+.cast div {
+	width: 25%;
+}
+ul.shows h1{
+	border-top: 1px solid;
+}
+nav .selected a{
+	font-weight: bold;
+	color: black;
+}
+a div {
+	font-size: 0.8rem;
+}
+a div:first-of-type {
+	font-weight: bold;
+}
+a div:last-of-type {
+	font-style: italic;
+}
+li#game-of-thrones section ul:last-child:after {
+	content: "*";
+}
+#game-of-thrones p:before {
+	content: "*";
+	color: red;
+	font-weight: bold;
+}
