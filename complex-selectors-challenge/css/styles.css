@@ -43,8 +43,8 @@ a div:last-of-type {
 li#game-of-thrones section ul:last-child:after {
 	content: "*";
 }
-#game-of-thrones p:before {
-	content: "*";
-	color: red;
-	font-weight: bold;
+#game-of-thrones .seasons:after {
+	content: "* Final Season";
+	color: #999;
+	font-size: 0.7rem;
 }
