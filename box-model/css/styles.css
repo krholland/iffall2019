@@ -34,10 +34,10 @@ section > div {
 	width: 960px;
 	/*background-color: rgba(0,255,255,.5);*/
 	margin: auto;
-	padding: 40px 0 0 0;
+	padding: 37px 0 41px 0;
 }
 section.section_one {
-	/*background-color: rgba(0,0,255,.5);*/
+	background-color: rgba(103, 227, 230, 1);
 }
 .section_one img {
 	float: right;
@@ -51,4 +51,52 @@ p {
 	letter-spacing: -.4px;
 	font-weight: 600;
 	line-height: 1.4;
+}
+section.section_two {
+	background-color: rgba(110, 81, 67, 1)
+}
+li img {
+	height: 150px;
+	width: 200px;
+	float: left;
+	margin-right: 12px;
+}
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+li {
+	width: 50%;
+	height: 173px;
+	/*background-color: rgba(255,0,255,.3);*/
+	padding-right: 25px;
+	box-sizing: border-box;
+	display: inline-block;
+}
+h4 {
+	font-size: 20px;
+	line-height: 1.4;
+	margin: 0;
+	margin-bottom: 5px;
+}
+li p {
+	margin: 0;
+}
+section.section_three {
+		background-color: rgba(103, 105, 299, 1);
+		padding-bottom: 37px;
+}
+.section_three p {
+	text-align: center;
+	font-size: 26px;
+	padding: 0 118px;
+	line-height: 1.35;
+}
+.footer div {
+	font-size: 17px;
+	font-weight: bold;
+}
+.footer {
+	background-color: rgba(255, 217, 0, 1)
 }
