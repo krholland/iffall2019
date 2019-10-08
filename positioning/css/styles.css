@@ -1,0 +1,38 @@
+section {
+	position: relative;
+}
+
+#box1 {
+	float: right;
+
+}
+
+#box2 {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	;
+}
+
+#box3 {
+	position: fixed;
+	right: 0;
+	top: 0;
+	background-color: green;
+}
+
+#box4 {
+	background-color: red;
+	position: absolute;
+	margin-left: 300px;
+	margin-right: auto;
+	z-index: 10;
+}
+
+#box5 {
+	background-color: black;
+	position: absolute;
+	margin-left: 310px;
+	margin-right: auto;
+	margin-top: 10px;
+}
