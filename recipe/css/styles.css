@@ -56,7 +56,11 @@ li {
 img {
 	display: inline-block;
 	position: center;
-	width: 425px;
+	border-radius: 5px;
+}
+header {
+	margin: 0px 10px 0px 10px;
+	border-radius: 5px;
 }
 #finalimage {
 	margin:20px 0px;
