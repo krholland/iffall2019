@@ -1,0 +1,73 @@
+body {
+	background-color: rgb(15, 105, 184);
+	margin: 0;
+	padding: 0;
+}
+h1 {
+	color: rgb(255, 192, 66);
+	font-family: 'Bree Serif', serif;
+	font-size: 40px;
+	text-align: center;
+}
+h2 {
+	font-family: 'Bree Serif', serif;
+	color: rgb(15, 105, 184);
+}
+ul {
+	color: rgb(15, 105, 184);
+	font-family: 'Nunito', sans-serif;
+	font-size: 18px;
+}
+ol {
+	color: rgb(15, 105, 184);
+	font-family: 'Nunito', sans-serif;
+	font-size: 18px;
+}
+.headerbox {
+	background-color: rgb(255, 192, 66);
+	margin: 0px 10px 0px 10px;
+	padding: 0px 10px 0px 10px;
+	border-radius: 5px;
+}
+.ingredientsbox {
+	background-color: rgb(255, 192, 66);
+	margin: 0px 10px 0px 10px;
+	padding: 5px;
+	border-radius: 5px;
+}
+.instructionsbox {
+	background-color: rgb(255, 192, 66);
+	margin: 0px 10px 0px 10px;
+	padding: 10px;
+	border-radius: 5px;
+}
+/*ol {
+	list-style: none;
+	counter-reset: li;
+}
+.instructionsbox li::before {
+	content: counter(li);
+	font-size: 18px;
+	font-weight: bold;
+}
+li {
+	counter-increment: li;
+}*/
+img {
+	display: inline-block;
+	position: center;
+	width: 400px;
+}
+header img {
+	width: 400px;
+}
+#finalimage {
+	margin:20px 0px;
+}
+
+.instructionsbox img {
+	display: inline-block;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	width: 300px;
+}
