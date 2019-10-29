@@ -1,0 +1,87 @@
+body {
+	background-color: rgb(24, 24, 110);
+	margin: 0;
+	padding: 0;
+}
+h1 {
+	color: rgb(255, 192, 66);
+	font-family: 'Bree Serif', serif;
+	font-size: 40px;
+	text-align: center;
+}
+h2 {
+	font-family: 'Bree Serif', serif;
+	color: rgb(24, 24, 110);
+}
+ul {
+	color: rgb(24, 24, 110);
+	font-family: 'Nunito', sans-serif;
+	font-size: 18px;
+}
+ol {
+	color: rgb(24, 24, 110);
+	font-family: 'Nunito', sans-serif;
+	font-size: 18px;
+}
+.headerbox {
+	background-color: rgb(255, 192, 66);
+	margin: 60px 10px 0px 10px;
+	padding: 0px 10px 0px 10px;
+	border-radius: 5px;
+}
+.ingredientsbox {
+	background-color: rgb(255, 192, 66);
+	margin: 0px 10px 0px 10px;
+	padding: 5px 8px 5px 8px;
+	border-radius: 5px;
+}
+.instructionsbox {
+	background-color: rgb(255, 192, 66);
+	margin: 0px 10px 0px 10px;
+	padding: 5px 30px 5px 8px;
+	border-radius: 5px;
+}
+/*ol {
+	list-style: none;
+	counter-reset: li;
+}
+.instructionsbox li::before {
+	content: counter(li);
+	font-size: 18px;
+	font-weight: bold;
+}
+li {
+	counter-increment: li;
+}*/
+.instructionsbox img {
+	display: inline-block;
+	position: center;
+	border-radius: 5px;
+}
+header {
+	margin: 0;
+}
+#finalimage {
+	margin:60px 10px 0px 10px;
+}
+#finalimage img {
+	border-radius: 5px;
+}
+
+.instructionsbox img {
+	display: inline-block;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	margin-left: 0px;
+	margin-right: 0px;
+}
+img {
+	max-width: 100%;
+	min-width: 100%;
+}
+ol li {
+	font-weight: bold;
+}
+ol li p {
+	font-weight: normal;
+}
