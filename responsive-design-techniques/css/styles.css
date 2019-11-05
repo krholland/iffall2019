@@ -1,0 +1,93 @@
+body {
+	width: 90%;
+	max-width: 800px;
+	margin:auto;
+}
+
+li {
+	display: inline-block;
+	vertical-align: top;
+	list-style-type: none;
+}
+
+@media ( min-width: 640px ) {
+
+	body {
+		background-color: #eaf6ff;
+	}
+
+	h1 {
+		font-size: 2.5rem;
+	}
+
+}
+
+
+@media ( max-width: 500px ) {
+
+	h1 {
+		font-size: 1.5rem;
+	}
+}
+
+section#fixed-size-grid-items aside {
+	width: 170px;
+	margin: 10px;
+	font-size: 0.8rem;
+}
+
+section#fixed-size-grid-items ul {
+	display: inline-block;
+	padding-left: 0;
+}
+
+section#fixed-size-grid-items li {
+	/*font-size: 0.8rem;*/
+}
+
+/*section#stretchable-grid-items aside {
+	margin: 10%;
+}
+
+section#stretchable-grid-items li {
+	width: 100%;
+	font-size: 0.8rem;
+}
+@media (min-width: 480px){
+section#stretchable-grid-items li{
+width: 50%;
+}
+}
+@media (min-width: 640px){
+section#stretchable-grid-items li{
+width: 25%;
+}
+
+section#stretchable-grid-items ul {
+	display: inline-block;
+}
+
+@media (min-width: 480px) {
+	section#stretchable-grid-items li {
+		width: 50%;
+	}
+}*/
+section#stretchable-grid-items li{
+	width: 100%;
+}
+
+@media (min-width: 480px){
+	section#stretchable-grid-items li{
+		width: 50%;
+	}
+}
+@media (min-width: 640px){
+	section#stretchable-grid-items li{
+		width: 25%;
+	}
+section#stretchable-grid-items ul{
+	margin: 1rem -10px;
+}
+section#stretchable-grid-items aside{
+	margin: 10%;
+}
