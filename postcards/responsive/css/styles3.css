@@ -1,0 +1,61 @@
+html,
+body {
+	height: 100%;
+}
+body {
+	background-image: url('../images/leslie_knope_3.jpg');
+	background-size: cover;
+	background-position: 50% top;
+	margin: 0;
+}
+.quote {
+	font-size: 30pt;
+	font-family: 'Oswald', sans-serif;
+	color: white;
+	text-shadow: 0 2px 10px rgba(0,0,0,0.5);
+}
+.quote-container {
+	position: absolute;
+	top: 5%;
+	right: 2%;
+	padding: 5%;
+}
+.attribution {
+	font-size: 18pt;
+	font-family: 'Roboto Mono', monospace;
+	color: white;
+	padding: 10px 0px 0px 0px;
+	text-shadow: 0 2px 10px rgba(0,0,0,0.5);
+}
+@media (min-width: 390px) {
+	.quote-container {
+		max-width: 40%;
+	}
+}
+@media (min-width: 965px) {
+	.quote-container {
+		max-width: 25%;
+	}
+}
+@media (max-width: 390px) {
+	.quote-container {
+		max-width: 40%;
+	}
+	.quote {
+		font-size: 22pt;
+	}
+	.attribution {
+		font-size: 14pt;
+	}
+	body {
+		background-position: 50% top;
+	}
+}
+a {
+		position: absolute;
+		top: 0;
+		left: 0;
+		right: 0;
+		bottom: 0;
+		z-index: 10;
+		}

@@ -1,0 +1,126 @@
+/*#card1 {
+	font-family: 'Oswald', sans-serif;
+	color: white;
+	margin: 0;
+	padding: 0;
+	background-size: 100%;
+	background-size: cover;
+	min-height: 100%;
+	min-width: 100%;
+	background-repeat: no-repeat;
+	background-image: url('../images/leslie_knope_1.png');
+	/*position: relative;*/
+	/*background-position: center;
+}
+
+body {
+	text-align: left;
+	overflow: hidden;
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	display: block;
+	max-width: 100%;
+	min-width: 100%;
+}
+
+.quote {
+	margin-left: 60px;
+	/*position: absolute;*/
+	/*right: 1em;
+	bottom: 70%;
+	max-width: 85%;
+	text-shadow: 0 2px 10px rgba(0,0,0,0.5)
+}
+
+@media ( max-width: 600px) {
+	body {
+		padding: 1em;
+	}
+	.quote {
+		right: 1em;
+		bottom: 10%;
+		max-width: 30%;
+		font-size: 1.5em;
+	}
+}
+
+@media ( min-width: 600px) {
+	body {
+		padding: 2em;
+	}
+	.quote {
+		right: 2em;
+		bottom: 10%;
+		max-width: 30%;
+		font-size: 3em;
+	}
+}
+
+@media (min-width: 1200px) {
+			.quote {
+				max-width: 25%;
+				font-size: 4em;
+			}
+		}*/
+
+html,
+body {
+	height: 100%;
+}
+body {
+	background-image: url('../images/leslie_knope_1.png');
+	background-size: cover;
+	background-position: 25% top;
+	margin: 0;
+}
+.quote {
+	font-size: 30pt;
+	font-family: 'Oswald', sans-serif;
+	color: white;
+	text-shadow: 0 2px 10px rgba(0,0,0,0.5);
+}
+.quote-container {
+	position: absolute;
+	top: 5%;
+	padding: 5%;
+}
+.attribution {
+	font-size: 18pt;
+	font-family: 'Roboto Mono', monospace;
+	color: white;
+	padding: 10px 0px 0px 0px;
+	text-shadow: 0 2px 10px rgba(0,0,0,0.5);
+}
+@media (min-width: 390px) {
+	.quote-container {
+		max-width: 40%;
+	}
+}
+@media (min-width: 965px) {
+	.quote-container {
+		max-width: 25%;
+	}
+}
+@media (max-width: 390px) {
+	.quote-container {
+		max-width: 50%;
+	}
+	.quote {
+		font-size: 22pt;
+	}
+	.attribution {
+		font-size: 14pt;
+	}
+	body {
+		background-position: 30% top;
+	}
+}
+a {
+		position: absolute;
+		top: 0;
+		left: 0;
+		right: 0;
+		bottom: 0;
+		z-index: 10;
+		}
