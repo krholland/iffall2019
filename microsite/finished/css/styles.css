@@ -8,9 +8,11 @@ body {
 h1 {
 	font-size: 2em;
 	color: rgb(253, 219, 3);
+	line-height: 1em;
 }
 h2 {
 	color: rgb(253, 219, 3);
+	line-height: 1em;
 }
 .homepage {
 	font-size: 14em;
@@ -18,6 +20,7 @@ h2 {
 	font-weight: bold;
 	padding: 20% 10% 30% 10%;
 	position: center;
+	display: block;
 }
 main section {
 	padding: 3%;
@@ -116,4 +119,82 @@ a {
 }
 .gallery .content img {
 	padding-top: 5%;
+}
+#drawer {
+	position: fixed;
+	top: 0;
+	left: 10px;
+	width: 180px;
+	height: 30px;
+	z-index: 10;
+}
+#drawer button.controls {
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	height: 30px;
+	width: 100%;
+	background-color: #000000;
+	cursor: pointer;
+}
+#drawer.open button.controls {
+	background-color: #000000;
+}
+#drawer button.controls:after {
+	content: "open +";
+	font-family: niveau-grotesk, sans-serif;
+	font-size: 20px;
+	font-weight: bold;
+	color: white;
+}
+#drawer.open button.controls:after {
+	content: "close -";
+}
+#drawer .contents {
+	height: 0;
+	padding: 0 10px;
+	box-sizing: border-box;
+	width: 100%;
+	background-color: rgb(180, 158, 219);
+	color: #fff;
+	transition: all .5s;
+	overflow: hidden;
+}
+#drawer.open .contents {
+	height: 120px;
+	padding: 30px 10px 10px 10px;
+}
+@media (min-width: 735px) {
+	#drawer {
+			display: none;
+		}
+	.homepage {
+		font-size: 10em;
+	}
+}
+@media (max-width: 735px) {
+	.menu {
+		display: none;
+	}
+	#drawer {
+		display: block;
+	}
+	main {
+		width: auto;
+		position: relative;
+		margin-left: 0;
+	}
+	.homepage {
+		font-size: 6em;
+	}
+}
+@media (min-width: 890px) {
+	.homepage {
+		font-size: 12em;
+	}
+}
+@media (min-width: 1000px) {
+	.homepage {
+		font-size: 14em;
+	}
 }

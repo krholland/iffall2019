@@ -5,6 +5,19 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link href="css/styles.css" rel="stylesheet">
 	<link rel="stylesheet" href="https://use.typekit.net/mol0wgl.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script>
+
+			$( document ).ready(function() {			/* Check that the DOM (the document) is ready */
+			    
+				$(".controls").click(function(){		/* Listen for a "click" on somewith with the class of "controls" */
+					$("#drawer").toggleClass("open");	/* Toggle (add/remove) the class "open" on an element with the ID of "drawer" */
+					console.log("Toggled the class!");	/* Logged a note to the console so I could see that the function ran */
+				});
+
+			});
+
+		</script>
 </head>
 <body>
 	<section class="homepage">
@@ -27,6 +40,15 @@
 				<a href=#gal>Gallery</a>
 			</div>
 		</strong>
+	</section>
+	<section id="drawer">
+		<button class="controls"></button>
+		<div class="contents">
+			<div><a href=#bio>Biography</a></div>
+			<div><a href=#mean>Meaning of Work</a></div>
+			<div><a href=#wnp>Work and Publication</a></div>
+			<div><a href=#gal>Gallery</a></div>
+		</div>
 	</section>
 	<main>
 		<section class="biography">
