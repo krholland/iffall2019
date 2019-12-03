@@ -1,0 +1,119 @@
+body {
+	font-family: niveau-grotesk, sans-serif;
+	background-image: url('../images/yayoi-kusama-website-mockup.jpg');
+	background-size: cover;
+	background-attachment: fixed;
+	line-height: 1.25em;
+}
+h1 {
+	font-size: 2em;
+	color: rgb(253, 219, 3);
+}
+h2 {
+	color: rgb(253, 219, 3);
+}
+.homepage {
+	font-size: 14em;
+	line-height: 1em;
+	font-weight: bold;
+	padding: 20% 10% 30% 10%;
+	position: center;
+}
+main section {
+	padding: 3%;
+	margin-top: 5%;
+	margin-bottom: 5%;
+	display: inline-block;
+}
+main section:first-child {
+	margin-top: 0;
+}
+main {
+	width: 76%;
+	display: inline-block;
+	vertical-align: top;
+	margin-left: 2%;
+}
+.menu {
+	display: inline-block;
+	position: sticky;
+	background-color: rgb(114, 86, 164, .5);
+	padding: 3%;
+	margin-left: 2%;
+	line-height: 1.5em;
+	font-size: 1.25em;
+	vertical-align: top;
+	top: 20px;
+	width: 12%;
+	color: white;
+}
+.menu div {
+	padding-top: 10%;
+	padding-bottom: 10%;
+}
+.content {
+	display: inline-block;
+	color: white;
+}
+.biography {
+	background-color: rgb(44, 138, 195);
+}
+.meaning {
+	background-color: rgb(39, 166, 74);
+}
+.work {
+	background-color: rgb(240, 115, 172);
+}
+.gallery {
+	background-color: rgb(114, 86, 164);
+}
+.image p {
+	font-size: .75em;
+	color: rgb(253, 219, 3);
+
+}
+img {
+	max-width: 100%;
+	min-width: 100%;
+}
+.contentgroup {
+	width: 60%;
+	position: relative;
+}
+.contentgroup .image {
+	position: absolute;
+	left: 110%;
+	width: 50%;
+	top: 0;
+}
+a {
+	text-decoration: none;
+	color: white;
+}
+#biolink a:hover {
+	color: rgb(44, 138, 195);
+}
+#biolink a:active {
+	color: rgb(44, 138, 195);
+}
+#meanlink a:hover {
+	color: rgb(39, 166, 74);
+}
+#meanlink a:active {
+	color: rgb(39, 166, 74);
+}
+#wnplink a:hover {
+	color: rgb(240, 115, 172);
+}
+#wnplink a:active {
+	color: rgb(240, 115, 172);
+}
+#gallink a:hover {
+	color: rgb(114, 86, 164);
+}
+#gallink a:active {
+	color: rgb(114, 86, 164);
+}
+.gallery .content img {
+	padding-top: 5%;
+}
